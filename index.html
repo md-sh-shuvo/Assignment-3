@@ -1,12 +1,69 @@
 <!doctype html>
-<html data-theme="light">
+<html class="manrope" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google font manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- daisy ui + tailwind css   cdn -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font awsome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .manrope{
+      font-family: "Manrope", sans-serif;
+    }
+  </style>
 </head>
 <body>
-  
+  <header class="pt-12 bg-gradient-to-b from-[#e0f3f8] to-[white]">
+    <nav class="md:container mx-auto ">
+      <div class="navbar flex items-center">
+        <div class="navbar-start flex items-center space-x-2">
+          <i class="flex justify-center items-center -rotate-45 fa-solid fa-arrow-right w-8 h-8 rounded-full bg-[#ABEF5F]" style="color: #000000;"></i>
+          <a class="text-3xl font-extrabold">Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="flex gap-5 text-base text-[#737373]">
+            <li><a class="hover:text-black hover:font-bold">Home</a></li>
+            <li><a class="hover:text-black hover:font-bold">Services</a></li>
+            <li><a class="hover:text-black hover:font-bold">Portfolio</a></li>
+            <li><a class="hover:text-black hover:font-bold">Blogs</a></li>
+            <li><a class="hover:text-black hover:font-bold">Contact US</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="hidden lg:flex gap-6 mr-6">
+            <div class="w-12 h-12 rounded-full bg-white drop-shadow flex justify-center items-center"><i class=" fa-solid fa-magnifying-glass fa-lg"></i></div>
+            <div class="w-12 h-12 rounded-full bg-white drop-shadow flex justify-center items-center"><i class=" fa-solid fa-cart-shopping fa-lg"></i></div>
+          </div>
+          <a class="btn hidden lg:flex bg-[#ABEF5F] hover:bg-[#ABEF5F] rounded-full font-extrabold text-xl">Book Consult<span class="w-8 h-8 rounded-full -rotate-45 flex justify-center items-center bg-black"><i class="inline-flex fa-solid fa-arrow-right" style="color: #ffffff;"></i></span></a>
+          <div class="dropdown dropdown-left">
+            <div tabindex="0" role="button" class="w-12 h-12 rounded-full bg-white drop-shadow flex justify-center items-center lg:hidden">
+              <i class="fa-solid fa-bars fa-lg"></i>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow hover:text-black">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact US</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
 </body>
 </html>
